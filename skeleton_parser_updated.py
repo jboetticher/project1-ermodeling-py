@@ -133,14 +133,14 @@ def parseJson(json_file):
                 x = open("items_table", "wb")
                 pickle.dump(Items_string, x)
                 
-                x = open("user_table", "wb")
-                pickle.dump(User_string, x)
+                y = open("user_table", "wb")
+                pickle.dump(User_string, y)
 
-                x = open("category_table", "wb")
-                pickle.dump(Category_string, x)
+                z = open("category_table", "wb")
+                pickle.dump(Category_string, z)
                 
-                x = open("bids_on_table", "wb")
-                pickle.dump(Bids_on_string, x)
+                h = open("bids_on_table", "wb")
+                pickle.dump(Bids_on_string, h)
 
 """
 Loops through each json files provided on the command line and passes each file
