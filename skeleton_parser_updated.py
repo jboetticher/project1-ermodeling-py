@@ -27,6 +27,7 @@ Happy parsing!
 import sys
 from json import loads
 from re import sub
+import pickle 
 
 columnSeparator = "|"
 
