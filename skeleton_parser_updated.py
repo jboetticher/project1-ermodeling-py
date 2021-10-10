@@ -136,7 +136,7 @@ def parseJson(json_file):
                 #Makes Category table
                 
                 for j in items[i]["Category"]:
-                    Category_string += str(items[i]["ItemID"]) + columnSeperator
+                    Category_string += str(items[i]["ItemID"]) + columnSeparator
                     Category_string += str(items[i]["Category"][j]) + "\n"
 
                 x = open("items_table", "wb")
