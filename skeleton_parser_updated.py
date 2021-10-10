@@ -1,4 +1,5 @@
 
+
 """
 FILE: skeleton_parser.py
 ------------------
@@ -108,6 +109,8 @@ def parseJson(json_file):
                             Items_string += str(transformDttm(items[i][col_name])) + columnSeparator
                         elif col_name == "Currently" or col_name == "First_Bid":
                             Items_string += str(transformDollar(items[i][col_name])) + columnSeparator
+                        elif col_name == "Description":
+                            Items_string == str(quotation_editor(items[i][col_name])) + columnSeparator
                         else:
                             Items_string += str(items[i][col_name]) + columnSeparator
                 Items_string += "\n"
@@ -128,8 +131,10 @@ def parseJson(json_file):
                 User_string += "Null|Null|\n"
 
                 #Makes Category table
-                Category_string += str(items[i]["ItemID"]) + columnSeparator
-                Category_string += quotation_editor(str(items[i]["Description"])) + columnSeparator + "\n"
+                
+                for j in items[i]["Category"]:
+                    Category_string += str(items[i]["ItemID"]) + columnSeperator
+                    Category_string += str(items[i]["Category"][j]) + "\n"
 
                 x = open("items_table", "wb")
                 pickle.dump(Items_string, x)
@@ -155,7 +160,7 @@ def main(argv):
     for f in argv[1:]:
         if isJson(f):
             parseJson(f)
-            print "Success parsing " + f
+            print ("Success parsing ") + f
 
 if __name__ == '__main__':
     main(sys.argv)
