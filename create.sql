@@ -1,3 +1,8 @@
+DROP TABLE IF EXISTS Users;
+DROP TABLE IF EXISTS Items;
+DROP TABLE IF EXISTS Bids;
+DROP TABLE IF EXISTS Categories;
+
 CREATE TABLE Users (
 	UserId int PRIMARY KEY,
 	Location char(255),
