@@ -12,7 +12,7 @@ CREATE TABLE Users (
 
 CREATE TABLE Items (
 	ItemId int PRIMARY KEY,
-	SellerId int,
+	SellerId int NOT NULL,
 	Country char(255),
 	Description text,
 	Name char(255),
@@ -30,15 +30,15 @@ CREATE TABLE Items (
 CREATE TABLE Bids (
 	BidTime char(255),
 	Amount float(2),
-	ItemId int,
-	UserId int,
+	ItemId int NOT NULL,
+	UserId int NOT NULL,
 	PRIMARY KEY (BidTime, ItemId, UserId)
 	FOREIGN KEY (ItemId) REFERENCES Items(ItemId),
 	FOREIGN KEY (UserId) REFERENCES Users(UserId)
 	);
 
 CREATE TABLE Categories(
-	ItemId int,
+	ItemId int NOT NULL,
 	Description char(255),
 	PRIMARY KEY (ItemId, Description),
 	FOREIGN KEY (ItemId) REFERENCES Items(ItemId)
