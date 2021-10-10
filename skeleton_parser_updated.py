@@ -150,4 +150,18 @@ def parseJson(json_file):
                 
                 h = open("bids_on_table", "wb")
                 pickle.dump(Bids_on_string, h)
+                
+def main(argv):
+    if len(argv) < 2:
+        print >> sys.stderr, 'Usage: python skeleton_json_parser.py <path to json files>'
+        sys.exit(1)
+    # loops over all .json files in the argument
+    for f in argv[1:]:
+        if isJson(f):
+            parseJson(f)
+            print ("Success parsing ") + f
+
+if __name__ == '__main__':
+    main(sys.argv)
+
 
