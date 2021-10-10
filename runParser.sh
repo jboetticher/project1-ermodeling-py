@@ -1,1 +1,1 @@
-python skeleton_parser_updated.py ebay_data/items-*.json
+python skeleton_parser_v2.py ebay_data/items-*.json
