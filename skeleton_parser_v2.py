@@ -109,14 +109,16 @@ def parseJson(json_file):
                 else:
                     if col_name == "Started" or col_name == "Ends":
                         Items_string += str(transformDttm(items[i][col_name])) + columnSeparator
-                    elif col_name == "Currently" or col_name == "First_Bid":
+                    elif col_name == "Currently":
+                        Items_string += str(transformDollar(items[i][col_name]))
+                    elif col_name == "First_Bid":
                         Items_string += str(transformDollar(items[i][col_name])) + columnSeparator
                     elif col_name == "Description" and items[i]["Description"] != None:
                         Items_string == str(quotation_editor(items[i][col_name])) + columnSeparator
                     elif col_name == "Description" and items[i]["Description"] == None:
                         Items_string == "NULL" + columnSeparator
                     else:
-                        Items_string += str(items[i][col_name])
+                        Items_string += str(items[i][col_name]) + columnSeparator
             Items_string += '\n'
 
             #Makes User table and Bids_On table
