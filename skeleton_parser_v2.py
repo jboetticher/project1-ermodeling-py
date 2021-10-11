@@ -123,13 +123,10 @@ def parseJson(json_file):
             if items[i]["Bids"] != None:
                 for j in range(len(items[i]["Bids"])):
                     for user_col in items[i]["Bids"][j]["Bid"]["Bidder"]:
-                        if user_col == "Amount":
-                            User_string += str(transformDollar(items[i]["Bids"][j]["Bid"]["Bidder"][user_col])) + columnSeparator
-                        else:
-                            User_string += str(items[i]["Bids"][j]["Bid"]["Bidder"][user_col]) + columnSeparator
+                        User_string += str(transformDollar(items[i]["Bids"][j]["Bid"]["Bidder"][user_col])) + columnSeparator
                     User_string += "\n"
                 Bids_on_string += str(transformDttm(items[i]["Bids"][j]["Bid"]["Time"])) + columnSeparator
-                Bids_on_string += str(items[i]["Bids"][j]["Bid"]["Amount"]) + columnSeparator + "\n"
+                Bids_on_string += str(transformDollar(items[i]["Bids"][j]["Bid"]["Amount"])) + columnSeparator + "\n"
             User_string += str(items[i]["Seller"]["UserID"]) + columnSeparator
             User_string += str(items[i]["Seller"]["Rating"]) + columnSeparator
             User_string += "Null|Null|\n"
