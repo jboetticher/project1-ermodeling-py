@@ -105,6 +105,7 @@ def parseJson(json_file):
             #Makes Items table
             for col_name in Items_columns:
                 if col_name not in items[i]:
+                    
                     Items_string += "NULL" + columnSeparator
                 else:
                     if col_name == "Started" or col_name == "Ends":
@@ -125,7 +126,7 @@ def parseJson(json_file):
             if items[i]["Bids"] != None:
                 for j in range(len(items[i]["Bids"])):
                     for user_col in items[i]["Bids"][j]["Bid"]["Bidder"]:
-                        if user_col == items[i]["Bids"][j]["Bid"]["Bidder"]["Rating"]:
+                        if user_col == "Rating":
                             User_string += str(items[i]["Bids"][j]["Bid"]["Bidder"][user_col])
                         else:
                             User_string += str(items[i]["Bids"][j]["Bid"]["Bidder"][user_col]) + columnSeparator
