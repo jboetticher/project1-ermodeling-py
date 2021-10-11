@@ -152,6 +152,7 @@ def parseJson(json_file):
                     Bids_on_string += str(items[i]["Bids"][j]["Bid"]["Bidder"]["UserID"]  + "\n")
             
             if items[i]["Seller"]["UserID"] not in UserIDs:
+                UserIds.append(items[i]["Bids"][j]["Bid"]["Bidder"][user_col])
                 User_string += "NULL|NULL|" + columnSeparator
                 User_string += str(items[i]["Seller"]["UserID"]) + columnSeparator
                 User_string += str(items[i]["Seller"]["Rating"]) + "\n"
