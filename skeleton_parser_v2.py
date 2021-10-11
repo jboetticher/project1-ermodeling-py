@@ -117,7 +117,7 @@ def parseJson(json_file):
                         Items_string == "NULL" + columnSeparator
                     else:
                         Items_string += str(items[i][col_name]) + columnSeparator
-            Items_string += "\n"
+            Items_string += '\n'
 
             #Makes User table and Bids_On table
             if items[i]["Bids"] != None:
@@ -140,17 +140,22 @@ def parseJson(json_file):
                 Category_string += str(items[i]["ItemID"]) + columnSeparator
                 Category_string += str(items[i]["Category"][j]) + "\n"
 
-            x = open("items_table.dat", "wb")
-            pickle.dump(Items_string, x)
-            
-            y = open("user_table.dat", "wb")
-            pickle.dump(User_string, y)
+        x = open("items_table.dat", "wb")
+        x.write(Items_string)
+        x.close()
+        
+        y = open("user_table.dat", "wb")
+        y.write(User_string)
+        y.close()
 
-            z = open("category_table.dat", "wb")
-            pickle.dump(Category_string, z)
-            
-            h = open("bids_on_table.dat", "wb")
-            pickle.dump(Bids_on_string, h)
+        z = open("category_table.dat", "wb")
+        z.write(Category_string)
+        z.close()
+        
+        h = open("bids_on_table.dat", "wb")
+        h.write(Bids_on_string)
+        h.close()
+        
             
 def main(argv):
     if len(argv) < 2:
