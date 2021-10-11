@@ -4,10 +4,10 @@ DROP TABLE IF EXISTS Bids;
 DROP TABLE IF EXISTS Categories;
 
 CREATE TABLE Users (
-	Location char(255),
-	Country char(255),
+	Rating int,
 	UserId char(255) PRIMARY KEY,
-	Rating int
+	Location char(255),
+	Country char(255)
 	);
 
 CREATE TABLE Items (

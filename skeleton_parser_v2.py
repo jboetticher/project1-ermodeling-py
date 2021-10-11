@@ -137,12 +137,15 @@ def parseJson(json_file):
             #Makes User table and Bids_On table
             if items[i]["Bids"] != None:
                 for j in range(len(items[i]["Bids"])):
-                    if items[i]["Seller"]["UserID"] not in UserIDs:
+                    if items[i]["Seller"]["UserID"] not in UserIds:
                         for user_col in items[i]["Bids"][j]["Bid"]["Bidder"]:
                             if user_col == "Rating":
-                                User_string += str(items[i]["Bids"][j]["Bid"]["Bidder"][user_col])
+                                User_string += str(items[i]["Bids"][j]["Bid"]["Bidder"][user_col]) + columnSeparator
                             elif user_col == "UserID":
                                 UserIds.append(items[i]["Bids"][j]["Bid"]["Bidder"][user_col])
+                                User_string += str(items[i]["Bids"][j]["Bid"]["Bidder"][user_col]) + columnSeparator
+                            elif user_col == "Country":
+                                User_string += str(items[i]["Bids"][j]["Bid"]["Bidder"][user_col])
                             else:
                                 User_string += str(items[i]["Bids"][j]["Bid"]["Bidder"][user_col]) + columnSeparator
                         User_string += "\n"
@@ -151,11 +154,11 @@ def parseJson(json_file):
                     Bids_on_string += str(items[i]["ItemID"]) + columnSeparator
                     Bids_on_string += str(items[i]["Bids"][j]["Bid"]["Bidder"]["UserID"]  + "\n")
             
-            if items[i]["Seller"]["UserID"] not in UserIDs:
-                UserIds.append(items[i]["Bids"][j]["Bid"]["Bidder"][user_col])
-                User_string += "NULL|NULL|" + columnSeparator
+            if items[i]["Seller"]["UserID"] not in UserIds:
+                User_string += str(items[i]["Seller"]["Rating"]) + columnSeparator
+                UserIds.append(items[i]["Seller"]["UserID"])
                 User_string += str(items[i]["Seller"]["UserID"]) + columnSeparator
-                User_string += str(items[i]["Seller"]["Rating"]) + "\n"
+                User_string += "NULL|NULL\n"
             
 
             #Makes Category table
