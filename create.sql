@@ -11,18 +11,18 @@ CREATE TABLE Users (
 	);
 
 CREATE TABLE Items (
-	SellerId int NOT NULL,
-	Started char(255),
-	Ends char(255),
-	Currently float(2),
-	FirstBid float(2),
-	Description text,
 	ItemId int PRIMARY KEY,
 	Name char(255),
+	Started char(255),
+	Ends char(255),
 	Location char(255),
 	NumberOfBids int,
-	BuyPrice float(2),
+	Currently float(2),
+	FirstBid float(2),
 	Country char(255),
+	BuyPrice float(2),
+	Description text,
+	SellerId char(255) NOT NULL,
 	FOREIGN KEY (SellerId) REFERENCES Users(UserId)
 	);
 
