@@ -116,14 +116,17 @@ def parseJson(json_file):
                     elif col_name == "Description" and items[i]["Description"] == None:
                         Items_string == "NULL" + columnSeparator
                     else:
-                        Items_string += str(items[i][col_name]) + columnSeparator
+                        Items_string += str(items[i][col_name])
             Items_string += '\n'
 
             #Makes User table and Bids_On table
             if items[i]["Bids"] != None:
                 for j in range(len(items[i]["Bids"])):
                     for user_col in items[i]["Bids"][j]["Bid"]["Bidder"]:
-                        User_string += str(transformDollar(items[i]["Bids"][j]["Bid"]["Bidder"][user_col])) + columnSeparator
+                        if user_col == items[i]["Bids"][j]["Bid"]["Bidder"]["Rating"]:
+                            User_string += str(transformDollar(items[i]["Bids"][j]["Bid"]["Bidder"][user_col]))
+                        else:
+                            User_string += str(transformDollar(items[i]["Bids"][j]["Bid"]["Bidder"][user_col])) + columnSeparator
                     User_string += "\n"
                     Bids_on_string += str(transformDttm(items[i]["Bids"][j]["Bid"]["Time"])) + columnSeparator
                     Bids_on_string += str(transformDollar(items[i]["Bids"][j]["Bid"]["Amount"])) + columnSeparator
@@ -131,7 +134,7 @@ def parseJson(json_file):
                     Bids_on_string += str(items[i]["Bids"][j]["Bid"]["Bidder"]["UserID"]  + "\n")
             User_string += "NULL|NULL|"
             User_string += str(items[i]["Seller"]["UserID"]) + columnSeparator
-            User_string += str(items[i]["Seller"]["Rating"]) + columnSeparator + "\n"
+            User_string += str(items[i]["Seller"]["Rating"]) + "\n"
             
 
             #Makes Category table
