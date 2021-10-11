@@ -4,25 +4,25 @@ DROP TABLE IF EXISTS Bids;
 DROP TABLE IF EXISTS Categories;
 
 CREATE TABLE Users (
-	UserId int PRIMARY KEY,
 	Location char(255),
 	Country char(255),
+	UserId int PRIMARY KEY,
 	Rating int
 	);
 
 CREATE TABLE Items (
-	ItemId int PRIMARY KEY,
 	SellerId int NOT NULL,
-	Country char(255),
-	Description text,
-	Name char(255),
 	Started char(255),
 	Ends char(255),
-	Location char(255),
-	NumberOfBids int,
 	Currently float(2),
 	FirstBid float(2),
+	Description text,
+	ItemId int PRIMARY KEY,
+	Name char(255),
+	Location char(255),
+	NumberOfBids int,
 	BuyPrice float(2),
+	Country char(255),
 	FOREIGN KEY (SellerId) REFERENCES Users(UserId)
 	);
 
