@@ -128,7 +128,7 @@ def parseJson(json_file):
                     Bids_on_string += str(transformDttm(items[i]["Bids"][j]["Bid"]["Time"])) + columnSeparator
                     Bids_on_string += str(transformDollar(items[i]["Bids"][j]["Bid"]["Amount"])) + columnSeparator
                     Bids_on_string += str(items[i]["ItemID"]) + columnSeparator
-                    Bids_on_string += str(items[i]["Bids"][j]["Bid"]["UserID"]  + "\n"
+                    Bids_on_string += str(items[i]["Bids"][j]["Bid"]["Bidder"]["UserID"]  + "\n")
             User_string += "NULL|NULL|"
             User_string += str(items[i]["Seller"]["UserID"]) + columnSeparator
             User_string += str(items[i]["Seller"]["Rating"]) + columnSeparator + "\n"
@@ -140,16 +140,16 @@ def parseJson(json_file):
                 Category_string += str(items[i]["ItemID"]) + columnSeparator
                 Category_string += str(items[i]["Category"][j]) + "\n"
 
-            x = open("items_table", "wb")
+            x = open("items_table.dat", "wb")
             pickle.dump(Items_string, x)
             
-            y = open("user_table", "wb")
+            y = open("user_table.dat", "wb")
             pickle.dump(User_string, y)
 
-            z = open("category_table", "wb")
+            z = open("category_table.dat", "wb")
             pickle.dump(Category_string, z)
             
-            h = open("bids_on_table", "wb")
+            h = open("bids_on_table.dat", "wb")
             pickle.dump(Bids_on_string, h)
             
 def main(argv):
