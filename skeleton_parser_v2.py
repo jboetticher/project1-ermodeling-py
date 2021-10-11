@@ -35,6 +35,7 @@ from re import sub
 import pickle 
 
 columnSeparator = "|"
+UserIds = []
 
 # Dictionary of months used for date transformation
 MONTHS = {'Jan':'01','Feb':'02','Mar':'03','Apr':'04','May':'05','Jun':'06',        'Jul':'07','Aug':'08','Sep':'09','Oct':'10','Nov':'11','Dec':'12'}
@@ -136,19 +137,24 @@ def parseJson(json_file):
             #Makes User table and Bids_On table
             if items[i]["Bids"] != None:
                 for j in range(len(items[i]["Bids"])):
-                    for user_col in items[i]["Bids"][j]["Bid"]["Bidder"]:
-                        if user_col == "Rating":
-                            User_string += str(items[i]["Bids"][j]["Bid"]["Bidder"][user_col])
-                        else:
-                            User_string += str(items[i]["Bids"][j]["Bid"]["Bidder"][user_col]) + columnSeparator
-                    User_string += "\n"
+                    if items[i]["Seller"]["UserID"] not in UserIDs:
+                        for user_col in items[i]["Bids"][j]["Bid"]["Bidder"]:
+                            if user_col == "Rating":
+                                User_string += str(items[i]["Bids"][j]["Bid"]["Bidder"][user_col])
+                            elif user_col == "UserID":
+                                UserIds.append(items[i]["Bids"][j]["Bid"]["Bidder"][user_col])
+                            else:
+                                User_string += str(items[i]["Bids"][j]["Bid"]["Bidder"][user_col]) + columnSeparator
+                        User_string += "\n"
                     Bids_on_string += str(transformDttm(items[i]["Bids"][j]["Bid"]["Time"])) + columnSeparator
                     Bids_on_string += str(transformDollar(items[i]["Bids"][j]["Bid"]["Amount"])) + columnSeparator
                     Bids_on_string += str(items[i]["ItemID"]) + columnSeparator
                     Bids_on_string += str(items[i]["Bids"][j]["Bid"]["Bidder"]["UserID"]  + "\n")
-            User_string += "NULL|NULL|"
-            User_string += str(items[i]["Seller"]["UserID"]) + columnSeparator
-            User_string += str(items[i]["Seller"]["Rating"]) + "\n"
+            
+            if items[i]["Seller"]["UserID"] not in UserIDs:
+                User_string += "NULL|NULL|" + columnSeparator
+                User_string += str(items[i]["Seller"]["UserID"]) + columnSeparator
+                User_string += str(items[i]["Seller"]["Rating"]) + "\n"
             
 
             #Makes Category table
