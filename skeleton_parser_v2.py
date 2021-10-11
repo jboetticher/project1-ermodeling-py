@@ -105,31 +105,30 @@ def parseJson(json_file):
             #Makes Items table
             for col_name in Items_columns:
                 if col_name == "Started" or col_name == "Ends":
-                    if items[i][col_name] == None:
-
+                    if col_name not in items[i] or items[i][col_name] == Non:
                         Items_string += "NULL" + columnSeparator
                     else:
                         Items_string += str(transformDttm(items[i][col_name])) + columnSeparator
                 elif col_name == "Currently" or col_name == "Buy_Price":
-                    if items[i][col_name] == None:
+                    if col_name not in items[i] or items[i][col_name] == None:
 
                         Items_string += "NULL" + columnSeparator
                     else:
                         Items_string += str(transformDollar(items[i][col_name]))
                 elif col_name == "First_Bid":
-                    if items[i][col_name] == None:
+                    if col_name not in items[i] or items[i][col_name] == None:
 
                         Items_string += "NULL" + columnSeparator
                     else:
                         Items_string += str(transformDollar(items[i][col_name])) + columnSeparator
                 elif col_name == "Description":
-                    if items[i][col_name] == None:
+                    if col_name not in items[i] or items[i][col_name] == None:
 
                         Items_string += "NULL"
                     else:
                         Items_string == str(quotation_editor(items[i][col_name]))
                 else:
-                    if items[i][col_name] == None:
+                    if col_name not in items[i] or items[i][col_name] == None:
 
                         Items_string += "NULL" + columnSeparator
                     else:
