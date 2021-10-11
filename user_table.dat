@@ -1,7 +1,7 @@
 NULL|NULL|jakdolls|2732
 NULL|NULL|chompchange|179
-1194|donalda2|Muskegon, MI|USA|
-283|moodygirl1|Designer Goods Made Affordable!|USA|
+1194donalda2|Muskegon, MI|USA|
+283moodygirl1|Designer Goods Made Affordable!|USA|
 NULL|NULL|jolieroger@msn.com|2496
 NULL|NULL|packendire|37
 NULL|NULL|yourbidguaranteed|840
@@ -23,12 +23,12 @@ NULL|NULL|mrbill26|421
 NULL|NULL|tanyas-treasures|1894
 NULL|NULL|bottlegirl1|2058
 NULL|NULL|tmhkau|3044
-765|gundammewtwo00@cs.com|USA|USA|
-253|michael5451|Sacramento|USA|
-56|chachaty|Sunny Central Florida|USA|
-250|rocksteady-eddie|The Hague|Netherlands|
-619|cathygirlsauctions|Medford, NY|USA|
-165|crjnole1|Boynton Beach|USA|
+765gundammewtwo00@cs.com|USA|USA|
+253michael5451|Sacramento|USA|
+56chachaty|Sunny Central Florida|USA|
+250rocksteady-eddie|The Hague|Netherlands|
+619cathygirlsauctions|Medford, NY|USA|
+165crjnole1|Boynton Beach|USA|
 NULL|NULL|briancon@pnc.com.au|1167
 NULL|NULL|carols@wcoil.com|1416
 NULL|NULL|alpineoaks716@aol.com|205
@@ -43,13 +43,13 @@ NULL|NULL|lennycmas|3433
 NULL|NULL|rlende|756
 NULL|NULL|cookiejarlady34|2356
 NULL|NULL|bigpix|794
-619|ladylin|Tampa, Florida|USA|
+619ladylin|Tampa, Florida|USA|
 NULL|NULL|carnival99@shaw.ca|354
 NULL|NULL|smittys*stuff|1001
-349|elegance70|ny|USA|
-231|laosbeauty|nothing4abuck@aol.com|USA|
-86|no1ebuyer|Chicago IL|USA|
-366|mingren|TX|USA|
+349elegance70|ny|USA|
+231laosbeauty|nothing4abuck@aol.com|USA|
+86no1ebuyer|Chicago IL|USA|
+366mingren|TX|USA|
 NULL|NULL|ytalbert|57
 NULL|NULL|tklegacy|473
 NULL|NULL|aqualityfurniture|2698
@@ -67,7 +67,7 @@ NULL|NULL|feedsackfanatic|526
 NULL|NULL|morecomicsmusic|568
 NULL|NULL|abottleman|19
 NULL|NULL|satinandlaceplace|969
-1|sanfran4|San Francisco,CA|USA|
+1sanfran4|San Francisco,CA|USA|
 NULL|NULL|lennycmas|3433
 NULL|NULL|toyshowinc|3712
 NULL|NULL|weblab|1489
@@ -76,11 +76,11 @@ NULL|NULL|yourbidguaranteed|840
 NULL|NULL|tmhkau|3044
 NULL|NULL|midilouise@aol.com|2312
 NULL|NULL|lennycmas|3433
-31|lavendereuphoria|Haleiwa, HI|USA|
+31lavendereuphoria|Haleiwa, HI|USA|
 NULL|NULL|deco-lady|597
-1216|millenniums|Kaliningrad, Russia|Russian Federation|
+1216millenniums|Kaliningrad, Russia|Russian Federation|
 NULL|NULL|figrin-dan|178
-12|bruceko56|hot wheels town. CA|USA|
+12bruceko56|hot wheels town. CA|USA|
 NULL|NULL|20yat|109
 NULL|NULL|jeffcat|678
 NULL|NULL|burlywd|86
@@ -90,11 +90,11 @@ NULL|NULL|ourgolfauctions|546
 NULL|NULL|rogertn|884
 NULL|NULL|rshadowdog|612
 NULL|NULL|bburton@atcc.net|184
-116|ediewill|Hartford, CT|USA|
+116ediewill|Hartford, CT|USA|
 NULL|NULL|lantrn1|6352
 NULL|NULL|jonjesus|1822
 NULL|NULL|dacowboy217|110
-1276|jpcop|PA|USA|
+1276jpcop|PA|USA|
 NULL|NULL|dextercity|564
 NULL|NULL|dreamisc|10
 NULL|NULL|larojas|64
@@ -106,7 +106,7 @@ NULL|NULL|komixkid|1435
 NULL|NULL|beanieskng|2638
 NULL|NULL|adamdale@msn.com|2182
 NULL|NULL|starbase-atlanta|6329
-23|tabbycats2000|Bradenton|USA|
+23tabbycats2000|Bradenton|USA|
 NULL|NULL|sugarbush2|435
 NULL|NULL|pumpkin-2000|104
 NULL|NULL|feedsackfanatic|526
@@ -121,7 +121,7 @@ NULL|NULL|rugmanone1|958
 NULL|NULL|memax|1725
 NULL|NULL|sethskf|503
 NULL|NULL|morecomicsmusic|568
-1492|conman30@aol.com|MICHIGAN|USA|
+1492conman30@aol.com|MICHIGAN|USA|
 NULL|NULL|precious_memories|854
 NULL|NULL|morecomicsmusic|568
 NULL|NULL|cuba_libre!|235
@@ -141,16 +141,16 @@ NULL|NULL|fund-my-film|144
 NULL|NULL|carolk843@aol.com|438
 NULL|NULL|monkeyfeet1|87
 NULL|NULL|monty_us@yahoo.com|310
-45|thov|mn|USA|
-930|priceizright|Manchester, New Hampshire|USA|
-2111|rltoney|St. Albans, West Virginia|USA|
-349|brownnutcake@aol.com|JOPLIN, MO.|USA|
-786|lenmw|Toronto|Canada|
-329|bobo131|east lansing|USA|
-490|rock9@whidbey.net|Wet & Windy Whidbey Island, Washington|USA|
-880|partizrfun|Texas|USA|
-1730|cvm3|jackson, ms|USA|
-252|strangeworlds|Toronto, Ontario|Canada|
+45thov|mn|USA|
+930priceizright|Manchester, New Hampshire|USA|
+2111rltoney|St. Albans, West Virginia|USA|
+349brownnutcake@aol.com|JOPLIN, MO.|USA|
+786lenmw|Toronto|Canada|
+329bobo131|east lansing|USA|
+490rock9@whidbey.net|Wet & Windy Whidbey Island, Washington|USA|
+880partizrfun|Texas|USA|
+1730cvm3|jackson, ms|USA|
+252strangeworlds|Toronto, Ontario|Canada|
 NULL|NULL|retro-toys|237
 NULL|NULL|nodoughlft|252
 NULL|NULL|trim999|635
@@ -165,15 +165,15 @@ NULL|NULL|jeffreychappell@hotmail.com|2472
 NULL|NULL|pedirob|56
 NULL|NULL|piranhakeeper|4477
 NULL|NULL|go-purdue|1353
-262|smx13|cant say-don't wanna get abducted again|USA|
+262smx13|cant say-don't wanna get abducted again|USA|
 NULL|NULL|yuccajunction|611
 NULL|NULL|smx13|262
-8|rumpus_room|Ringwood, Hampshire|United Kingdom|
+8rumpus_room|Ringwood, Hampshire|United Kingdom|
 NULL|NULL|greg3331|14
 NULL|NULL|robotmonster1|21
 NULL|NULL|tiggerputtycat|39
 NULL|NULL|i.consign|1199
-32|thanx4u|DEEP N DA STIX|USA|
+32thanx4u|DEEP N DA STIX|USA|
 NULL|NULL|jaxnwy|6
 NULL|NULL|a2ospecialties@msn.com|972
 NULL|NULL|musiccomicwilson|0
@@ -195,7 +195,7 @@ NULL|NULL|themovieman1|7204
 NULL|NULL|themovieman1|7204
 NULL|NULL|still4@aol.com|387
 NULL|NULL|go!kings!go!|16
-131|earlanddonna@cafes.net|GREAT STOCKING STUFFER!|USA|
+131earlanddonna@cafes.net|GREAT STOCKING STUFFER!|USA|
 NULL|NULL|go!kings!go!|16
 NULL|NULL|trinkettrader|1076
 NULL|NULL|marvinski|306
@@ -206,8 +206,8 @@ NULL|NULL|xena-goddess|53
 NULL|NULL|imabasket|172
 NULL|NULL|train222|905
 NULL|NULL|abzsilch|17
-2111|rltoney|St. Albans, West Virginia|USA|
-131|illiteratenurse|MERRY CHRISTMAS!|USA|
+2111rltoney|St. Albans, West Virginia|USA|
+131illiteratenurse|MERRY CHRISTMAS!|USA|
 NULL|NULL|bear4800@aol.com|78
 NULL|NULL|wei118|6
 NULL|NULL|scavengerf|1549
@@ -230,7 +230,7 @@ NULL|NULL|coconut-chuck|169
 NULL|NULL|krose47|1694
 NULL|NULL|fin4|1469
 NULL|NULL|uselessjunque|2614
-203|greatstuffaaa|New York|USA|
+203greatstuffaaa|New York|USA|
 NULL|NULL|fundetective|441
 NULL|NULL|libbylibbylibby|1673
 NULL|NULL|libbylibbylibby|1673
@@ -248,21 +248,21 @@ NULL|NULL|jeffisinindy@aol.com|13
 NULL|NULL|chloe1376@aol.com|1485
 NULL|NULL|galaxy77|64
 NULL|NULL|grandmascards|68
-877|hollybax222|South Georgia|USA|
+877hollybax222|South Georgia|USA|
 NULL|NULL|itzadoozie|1131
-136|71*flowerchild|DAYNA'S CLOSET|USA|
+13671*flowerchild|DAYNA'S CLOSET|USA|
 NULL|NULL|redcoucar|0
 NULL|NULL|jvella7000@aol.com|378
 NULL|NULL|eileenrosehardin@aol.com|0
 NULL|NULL|gmmkdog|497
-2444|shakers|Fredericktown, Ohio|USA|
+2444shakers|Fredericktown, Ohio|USA|
 NULL|NULL|auntiewinnie|155
 NULL|NULL|bigdog63|301
 NULL|NULL|redlois|1470
 NULL|NULL|kim*co|1214
 NULL|NULL|sdooley@webtv.net|456
 NULL|NULL|fredkarger|332
-659|betterbargains|Miami Beach, FL|USA|
+659betterbargains|Miami Beach, FL|USA|
 NULL|NULL|khevle2@aol.com|280
 NULL|NULL|not2good2btrue|554
 NULL|NULL|grandmascards|68
@@ -273,7 +273,7 @@ NULL|NULL|weluvstuff2|626
 NULL|NULL|so-many-comics|1242
 NULL|NULL|so-many-comics|1242
 NULL|NULL|magenta@delanet.com|637
-554|not2good2btrue|North Florida|USA|
+554not2good2btrue|North Florida|USA|
 NULL|NULL|cjkshome|4
 NULL|NULL|allwaysilverage|839
 NULL|NULL|so-many-comics|1242
@@ -331,15 +331,15 @@ NULL|NULL|peteraubery|138
 NULL|NULL|iam0free|0
 NULL|NULL|lhcomics|620
 NULL|NULL|erikldage@msn.com|729
-1938|someguydreamin|Bowie, MD|USA|
+1938someguydreamin|Bowie, MD|USA|
 NULL|NULL|love-to-collect|200
 NULL|NULL|sassylaurie|43
 NULL|NULL|mzesb@aol.com|403
 NULL|NULL|justabottle|211
 NULL|NULL|babysmamas|328
 NULL|NULL|biglouie66|28
-423|missjulie|Massachusetts|USA|
-631|artmart37|california|USA|
+423missjulie|Massachusetts|USA|
+631artmart37|california|USA|
 NULL|NULL|kvk5star|1215
 NULL|NULL|biglouie66|28
 NULL|NULL|antiquecomplex|2897
@@ -355,23 +355,23 @@ NULL|NULL|wolfiewock|358
 NULL|NULL|flookout|3375
 NULL|NULL|yworrey@aol.com|4407
 NULL|NULL|perk1373@aol.com|450
-115|oogie89|Great Falls, Virginia|USA|
-56|leaps_and_bounds|God Bless America!!!|USA|
+115oogie89|Great Falls, Virginia|USA|
+56leaps_and_bounds|God Bless America!!!|USA|
 NULL|NULL|petersme|48
 NULL|NULL|klamen|452
 NULL|NULL|noazrk|760
 NULL|NULL|justjudy75|13
 NULL|NULL|starp0wer2001|0
 NULL|NULL|carolercollector|156
-71|monkeydog2|Kalamazoo, MI|USA|
-52|somersetcollectibles|North Tonawanda, NY|USA|
+71monkeydog2|Kalamazoo, MI|USA|
+52somersetcollectibles|North Tonawanda, NY|USA|
 NULL|NULL|ahadavis|104
 NULL|NULL|spike@usmo.com|806
-2608|bnhuck|Tulsa, Ok|USA|
+2608bnhuck|Tulsa, Ok|USA|
 NULL|NULL|briggs114@cs.com|63
 NULL|NULL|buzzy6|109
 NULL|NULL|thirdzone.com|1606
-58|okieh75|Ostsee|Germany|
+58okieh75|Ostsee|Germany|
 NULL|NULL|getgreedy|289
 NULL|NULL|baags|668
 NULL|NULL|boffy@lakecountry.net|4191
@@ -384,7 +384,7 @@ NULL|NULL|preciouspieces|3085
 NULL|NULL|mikeclem|14
 NULL|NULL|baskets2treasure|2138
 NULL|NULL|bobsmintcds|710
-275|simpleselling@aol.com|SHERMAN OAKS, CA|USA|
+275simpleselling@aol.com|SHERMAN OAKS, CA|USA|
 NULL|NULL|cantilena|11
 NULL|NULL|ann111|591
 NULL|NULL|pat3333|261
@@ -400,7 +400,7 @@ NULL|NULL|laceygracey|2017
 NULL|NULL|ridgeroadpa|542
 NULL|NULL|laceygracey|2017
 NULL|NULL|yworrey@aol.com|4407
-741|autographcollect|TN|USA|
+741autographcollect|TN|USA|
 NULL|NULL|razman@loa.com|74
 NULL|NULL|iceqwene|131
 NULL|NULL|mfrumkin@earthlink.net|4209
@@ -422,12 +422,12 @@ NULL|NULL|s1quirly23|391
 NULL|NULL|buyingout|84
 NULL|NULL|hdrk1|229
 NULL|NULL|marcopena63@hotmail.com|158
-1987|frannancy|New York|USA|
-730|mistress*jewelry|Wishing you Happy Holidays From South Jersey!|USA|
+1987frannancy|New York|USA|
+730mistress*jewelry|Wishing you Happy Holidays From South Jersey!|USA|
 NULL|NULL|ohiorose|354
 NULL|NULL|feistypag|170
 NULL|NULL|viking1701|261
-261|onesand1|Gaithersburg, MD 20879|USA|
+261onesand1|Gaithersburg, MD 20879|USA|
 NULL|NULL|brister21|131
 NULL|NULL|tkbuzz|1002
 NULL|NULL|buyingout|84
@@ -442,10 +442,10 @@ NULL|NULL|pfloyd3263|211
 NULL|NULL|infosales@villagecomics.com|485
 NULL|NULL|ksbrsb@aol.com|97
 NULL|NULL|etsusparky|3
-420|ab3692@dreamscape.com|Upstate New York|USA|
+420ab3692@dreamscape.com|Upstate New York|USA|
 NULL|NULL|illyanadmc|277
 NULL|NULL|artmart37|631
-116|superbaglady|Lincoln City, OR|USA|
+116superbaglady|Lincoln City, OR|USA|
 NULL|NULL|creativeconspiracycorp@yahoo.com|159
 NULL|NULL|jimreb1234@aol.com|410
 NULL|NULL|kochcom|6519
@@ -459,9 +459,9 @@ NULL|NULL|suzie514|5846
 NULL|NULL|cjbchillie|426
 NULL|NULL|aragan@texas.net|1355
 NULL|NULL|outdoors42|346
-1432|jct@ct2.nai.net|Connecticut|USA|
-53|springken|I love New York|USA|
-262|pschne8010@yahoo.com|AL BUNDYS WINTER HOME TUCSON|USA|
+1432jct@ct2.nai.net|Connecticut|USA|
+53springken|I love New York|USA|
+262pschne8010@yahoo.com|AL BUNDYS WINTER HOME TUCSON|USA|
 NULL|NULL|lbeezer75|876
 NULL|NULL|snowfaery|59
 NULL|NULL|nomis-nook|1149
@@ -471,7 +471,7 @@ NULL|NULL|1000000comix|726
 NULL|NULL|gwstone|1043
 NULL|NULL|doris29|13
 NULL|NULL|kirbyfan|598
-1146|eddymart|LITHIA SPRINGS, GA.|USA|
+1146eddymart|LITHIA SPRINGS, GA.|USA|
 NULL|NULL|susumeans@aol.com|45
 NULL|NULL|iti77@earthlink.net|581
 NULL|NULL|a2jtreasures|4
@@ -501,15 +501,15 @@ NULL|NULL|sgary2|188
 NULL|NULL|zerosum@rocketmail.com|911
 NULL|NULL|candle-world.com|2019
 NULL|NULL|bellissimo2|634
-145|Antonios|Stanford, CA|USA|
-186|ac34|Midwest|USA|
+145Antonios|Stanford, CA|USA|
+186ac34|Midwest|USA|
 NULL|NULL|mamabearbaskets|2
 NULL|NULL|ohiogus|0
 NULL|NULL|candle-world.com|2019
 NULL|NULL|icollectshoes|728
 NULL|NULL|candle-world.com|2019
 NULL|NULL|candle-world.com|2019
-82|tanman54|PERFUME CITY|USA|
+82tanman54|PERFUME CITY|USA|
 NULL|NULL|giraffelaugh|257
 NULL|NULL|tuffskins1@earthlink.net|245
 NULL|NULL|32podd|455
@@ -519,15 +519,15 @@ NULL|NULL|go4toyz|788
 NULL|NULL|sakmastr|248
 NULL|NULL|taoting19|91
 NULL|NULL|ebay-sales@netquake.net|165
-2354|toyscomics|Little Rock, Arkansas|USA|
+2354toyscomics|Little Rock, Arkansas|USA|
 NULL|NULL|kmak333@aol.com|6801
 NULL|NULL|swhite6341@aol.com|282
-889|rockshaw|Stoke-on-Trent,Staffordshire|United Kingdom|
-1176|rikkid|~Washington State~|USA|
+889rockshaw|Stoke-on-Trent,Staffordshire|United Kingdom|
+1176rikkid|~Washington State~|USA|
 NULL|NULL|zippershark|3665
 NULL|NULL|brettgodfrey|110
 NULL|NULL|www.diverzions.com|5358
-713|potzer12|OHIO|USA|
+713potzer12|OHIO|USA|
 NULL|NULL|pem45@aol.com|1247
 NULL|NULL|rockerpeople|658
 NULL|NULL|ca44@cecomet.net|4919
