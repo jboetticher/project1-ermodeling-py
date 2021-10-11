@@ -100,7 +100,7 @@ def parseJson(json_file):
         User_string = ""
         Category_string = ""
         Bids_on_string = ""
-        Items_columns=["ItemID","Name","Started","Ends","Location","Number_of_Bids","First_Bid","Buy_Price","Country","Description","Currently"]
+        Items_columns=["ItemID","Name","Started","Ends","Location","Number_of_Bids","First_Bid","Buy_Price","Country","Currently","Description"]
         for i in range(len(items)):
             #Makes Items table
             for col_name in Items_columns:
@@ -125,15 +125,9 @@ def parseJson(json_file):
                 elif col_name == "Description":
                     if col_name not in items[i]:
 
-                        Items_string += "NULL" + columnSeparator
+                        Items_string += "NULL"
                     else:
-                        Items_string == str(quotation_editor(items[i][col_name])) + columnSeparator
-                elif col_name != items[i][-1]:
-                    if col_name not in items[i]:
-
-                        Items_string += "NULL" + columnSeparator
-                    else:
-                        Items_string += str(items[i][col_name]) + columnSeparator
+                        Items_string == str(quotation_editor(items[i][col_name]))
                 else:
                     if col_name not in items[i]:
 
