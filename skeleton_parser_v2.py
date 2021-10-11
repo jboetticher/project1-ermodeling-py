@@ -127,9 +127,10 @@ def parseJson(json_file):
                     User_string += "\n"
                 Bids_on_string += str(transformDttm(items[i]["Bids"][j]["Bid"]["Time"])) + columnSeparator
                 Bids_on_string += str(transformDollar(items[i]["Bids"][j]["Bid"]["Amount"])) + columnSeparator + "\n"
+            User_string += "Null|Null|"
             User_string += str(items[i]["Seller"]["UserID"]) + columnSeparator
-            User_string += str(items[i]["Seller"]["Rating"]) + columnSeparator
-            User_string += "Null|Null|\n"
+            User_string += str(items[i]["Seller"]["Rating"]) + columnSeparator + "\n"
+            
 
             #Makes Category table
             
