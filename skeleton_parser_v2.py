@@ -167,19 +167,19 @@ def parseJson(json_file):
                 Category_string += str(items[i]["ItemID"]) + columnSeparator
                 Category_string += str(items[i]["Category"][j]) + "\n"
 
-        x = open("items_table.dat", "wb")
+        x = open("items_table.dat", "a")
         x.write(Items_string)
         x.close()
         
-        y = open("user_table.dat", "wb")
+        y = open("user_table.dat", "a")
         y.write(User_string)
         y.close()
 
-        z = open("category_table.dat", "wb")
+        z = open("category_table.dat", "a")
         z.write(Category_string)
         z.close()
         
-        h = open("bids_on_table.dat", "wb")
+        h = open("bids_on_table.dat", "a")
         h.write(Bids_on_string)
         h.close()
         

@@ -1,4 +1,4 @@
-%%sql with numCats as (select distinct ItemId, count(Description) as ct,
+with numCats as (select distinct ItemId, count(Description) as ct
                        from Categories
                        group by ItemId)
 select count(b.BidTime)

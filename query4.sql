@@ -1,5 +1,5 @@
-%%sql with m as (select max(Amount)
-                from Bids)
+with m as (select max(Currently) as m
+                from Items)
 select ItemId
 from Bids b
-where Amount = m;
+where Amount = m.m;

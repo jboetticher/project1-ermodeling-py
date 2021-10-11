@@ -1,2 +1,2 @@
-%%sql select count(UserId)
+select count(UserId)
 from Users;
