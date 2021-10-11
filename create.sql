@@ -6,7 +6,7 @@ DROP TABLE IF EXISTS Categories;
 CREATE TABLE Users (
 	Location char(255),
 	Country char(255),
-	UserId int PRIMARY KEY,
+	UserId char(255) PRIMARY KEY,
 	Rating int
 	);
 
@@ -31,7 +31,7 @@ CREATE TABLE Bids (
 	BidTime char(255),
 	Amount float(2),
 	ItemId int NOT NULL,
-	UserId int NOT NULL,
+	UserId char(255) NOT NULL,
 	PRIMARY KEY (BidTime, ItemId, UserId)
 	FOREIGN KEY (ItemId) REFERENCES Items(ItemId),
 	FOREIGN KEY (UserId) REFERENCES Users(UserId)
