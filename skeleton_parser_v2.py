@@ -125,9 +125,11 @@ def parseJson(json_file):
                     for user_col in items[i]["Bids"][j]["Bid"]["Bidder"]:
                         User_string += str(transformDollar(items[i]["Bids"][j]["Bid"]["Bidder"][user_col])) + columnSeparator
                     User_string += "\n"
-                Bids_on_string += str(transformDttm(items[i]["Bids"][j]["Bid"]["Time"])) + columnSeparator
-                Bids_on_string += str(transformDollar(items[i]["Bids"][j]["Bid"]["Amount"])) + columnSeparator + "\n"
-            User_string += "Null|Null|"
+                    Bids_on_string += str(transformDttm(items[i]["Bids"][j]["Bid"]["Time"])) + columnSeparator
+                    Bids_on_string += str(transformDollar(items[i]["Bids"][j]["Bid"]["Amount"])) + columnSeparator
+                    Bids_on_string += str(items[i]["ItemID"]) + columnSeparator
+                    Bids_on_string += str(items[i]["Bids"][j]["Bid"]["UserID"]  + "\n"
+            User_string += "NULL|NULL|"
             User_string += str(items[i]["Seller"]["UserID"]) + columnSeparator
             User_string += str(items[i]["Seller"]["Rating"]) + columnSeparator + "\n"
             
